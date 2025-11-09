@@ -10,7 +10,7 @@ function setup() {
 function draw() {
   background(220);
 
-  let gravity = createVector(0.3, 0.3);
+  let gravity = createVector(0.3, 0);
   ball.addForce(gravity);
 
   ball.update();
